@@ -1,5 +1,4 @@
-# Board-Game-Arranger
-# Tournament-Rating-App-Demo
+# Tournament-Block-App-Demo
 A simple board game arranger app demo as per Tines and Barbs Rating System!!!
 
 This is a simple demo of arranging 4 player board game tournament as per the rating system developed for http://www.tinesandbarbs.com!!!
