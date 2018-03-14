@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".round"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@drawable/a"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/Heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="Arial"
+        android:text="@string/tb"
+        android:textColor="#ff0621"
+        android:textSize="35sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="6dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/round1"
+        android:layout_width="172dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="35dp"
+        android:background="@android:color/holo_red_dark"
+        android:fontFamily="Arial"
+        android:gravity="center"
+        android:onClick="round1"
+        android:padding='6dp'
+        android:text="@string/r1"
+        android:textColor="@android:color/holo_purple"
+        android:textSize='38sp'
+        android:textStyle="bold"
+        android:layout_below="@+id/Heading"
+        android:layout_alignLeft="@+id/round3"
+        android:layout_alignStart="@+id/round3" />
+
+    <Button
+        android:id="@+id/round2"
+        android:layout_width="172dp"
+        android:layout_height="52dp"
+        android:background="@android:color/holo_blue_dark"
+        android:fontFamily="Arial"
+        android:gravity="center"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize='38sp'
+        android:textStyle="bold"
+        android:onClick="round2"
+        android:text="@string/r2"
+        android:layout_below="@+id/round1"
+        android:layout_alignRight="@+id/round1"
+        android:layout_alignEnd="@+id/round1"
+        android:layout_marginTop="50dp" />
+
+    <Button
+        android:id="@+id/round3"
+        android:layout_width="172dp"
+        android:layout_height="52dp"
+        android:background="@android:color/holo_green_dark"
+        android:fontFamily="Arial"
+        android:gravity="center"
+        android:onClick="round3"
+        android:text="@string/r3"
+        android:textColor="@android:color/white"
+        android:textSize='38sp'
+        android:textStyle="bold"
+        android:layout_marginTop="39dp"
+        android:layout_below="@+id/round2"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:text="@string/tbc"
+        android:textColor="#66020d"
+        android:textSize="20sp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>
+
+
+
+
+
